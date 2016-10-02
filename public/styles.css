@@ -1,0 +1,16 @@
+.main {
+    background-color: #F8E3FB;
+    border: 120px solid #540F80;
+}
+.frmTp {
+
+    text-align: center;
+    font-size: 110px;
+    margin-bottom: 75px;
+    font-family: 'Yesteryear', cursive;
+}
+p {
+    padding-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
