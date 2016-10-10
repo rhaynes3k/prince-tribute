@@ -16,3 +16,8 @@ p {
     font-size: 20px;
     text-align: justify;
 }
+@media all and (max-width: 800px) {
+  .main {
+    border: 60px solid #540F80;
+  }
+}
