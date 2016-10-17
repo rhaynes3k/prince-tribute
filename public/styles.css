@@ -1,23 +1,36 @@
+.container-fluid {
+    overflow: auto;
+}
 .main {
     background-color: #F8E3FB;
     border: 120px solid #540F80;
 }
 .frmTp {
-
     text-align: center;
     font-size: 110px;
     margin-bottom: 75px;
     font-family: 'Yesteryear', cursive;
     color: #540F80;
-
 }
 p {
     padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
     font-size: 20px;
     text-align: justify;
 }
-@media all and (max-width: 800px) {
-  .main {
-    border: 60px solid #540F80;
-  }
+@media screen and (max-width: 992px) {
+    .main {
+        border: 60px solid #540F80;
+    }
+    img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media all and (max-width: 768px) {
+    .frmTp {
+        font-size: 80px;
+
+    }
 }
