@@ -35,10 +35,12 @@ p {
     }
 }
 #collage {
+    margin-left: 15px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 10px;
 }
 .img-responsive {
     border: 1px solid black;
+    -webkit-transition: all .5s ease-in-out;
 }
+.img-responsive:hover { transform: scale(1.7); }
