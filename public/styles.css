@@ -2,28 +2,34 @@
     overflow: auto;
 }
 .main {
-    background-color: #F8E3FB;
-    border: 120px solid #540F80;
+    background: url("./images/bkgnd.2.jpg") no-repeat center center fixed;
+    border: 120px solid #4B0153;
+    color: gold;
 }
 .frmTp {
     text-align: center;
     font-size: 110px;
     margin-bottom: 75px;
     font-family: 'Yesteryear', cursive;
-    color: #540F80;
+    color: gold;
 }
 p {
     padding-top: 10px;
     padding-left: 5px;
     padding-right: 5px;
-    font-size: 20px;
-    text-align: justify;
+    font-size: 25px;
 }
 @media screen and (max-width: 992px) {
     .main {
-        border: 60px solid #540F80;
+        border: 60px solid #4B0153;
     }
     img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 2000px) {
+    #collage img {
         margin-left: auto;
         margin-right: auto;
     }
@@ -31,11 +37,14 @@ p {
 @media all and (max-width: 768px) {
     .frmTp {
         font-size: 80px;
-
+    }
+    p {
+        font-size: 20px;
+        font-weight: bold;
     }
 }
 #collage {
-    margin-left: 15px;
+    margin-left: auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -43,4 +52,4 @@ p {
     border: 1px solid black;
     -webkit-transition: all .5s ease-in-out;
 }
-.img-responsive:hover { transform: scale(1.7); }
+.img-responsive:hover { transform: scale(1.5); }
