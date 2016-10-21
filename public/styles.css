@@ -3,6 +3,11 @@
 }
 .main {
     background: url("./images/bkgnd.2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: fixed;
     border: 120px solid #4B0153;
     color: gold;
 }
@@ -41,6 +46,12 @@ p {
     p {
         font-size: 20px;
         font-weight: bold;
+    }
+}
+@media all and (max-width: 640px) {
+    .main {
+        background: url("https://s-media-cache-ak0.pinimg.com/originals/09/81/1d/09811dae4ad533670b6dc37f2315b130.jpg") center center fixed;
+        background-color: #610574;
     }
 }
 #collage {
